@@ -7,16 +7,17 @@
 //    document.body.insertBefore(newForm, currentDiv)
 // }
 
-const initFunction = function(){
-   const injectElement = document.createElement("div");
-   injectElement.className = "chatbox";
-   injectElement.innerHTML = "Portals Chat";
-   document.body.appendChild(injectElement);
-//    const injectInput = document.createElement("input");
-//    injectInput.className = "input";
-//    injectInput.placeholder ="write message here";
-//    document.getElementsByClassName("chatbox").appendChild(injectInput);
-// }
+const initFunction = async function () {
+  const injectElement = document.createElement("div");
+  injectElement.className = "chatbox";
+  injectElement.innerHTML = "Portals Chat";
+  document.body.appendChild(injectElement);
+
+  //    const injectInput = document.createElement("input");
+  //    injectInput.className = "input";
+  //    injectInput.placeholder ="write message here";
+  //    document.getElementsByClassName("chatbox").appendChild(injectInput);
+  // }
 }
 initFunction();
 
