@@ -1,0 +1,23 @@
+{
+    "name": "Moonbounce Portals",
+    "version": "0.1",
+    "description": "Change the way you understand connectivity",
+    "content_scripts": [
+        {
+        "matches": ["https://getmoonbounce.com/*", "https://mirror.xyz/*", "https://opensea.io/*", "https://twitter.com/*"],
+        "js": ["contentScript.js"],
+        "css" : ["contentScript.css"],
+        "run_at": "document_end"
+    }],
+    "icons": {
+        "16": "images/icon_16-2.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+        
+      },
+    
+    "manifest_version": 2
+
+
+        
+    }
